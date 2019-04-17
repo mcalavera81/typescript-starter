@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is a starter project for typescript projects",
   "main": "dist/index.js",
-  "scripts": {
+   "scripts": {
+    "test": "mocha  -r ts-node/register test/**.ts",
+    "test:watch": "mocha --watch --watch-extensions ts --reporter min -r ts-node/register test/**.ts"
   },
   "repository": {
     "type": "git",
