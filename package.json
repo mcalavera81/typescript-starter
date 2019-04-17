@@ -5,7 +5,7 @@
   "main": "dist/index.js",
    "scripts": {
     "test": "mocha  -r ts-node/register test/**.ts",
-    "test:watch": "mocha --watch --watch-extensions ts --reporter min -r ts-node/register test/**.ts"
+    "test:watch": "mocha --watch --watch-extensions ts --reporter min -r ts-node/register tests/**.ts"
   },
   "repository": {
     "type": "git",
